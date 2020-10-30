@@ -20,7 +20,7 @@ public class Operations {
         return (int)((Math.random() * range) + min);
     }
 
-    public static int fields() {
+    public static int landOnFields() {
 
         int field = 0;
 

@@ -28,10 +28,10 @@ public class Game {
             switch (choice) {
                 case 1:
                     System.out.print(player1.getName());
-                    player1.getBalance().setBalance(playerOneBalance + Operations.fields());
+                    player1.getBalance().setBalance(playerOneBalance + Operations.landOnFields());
 
                     System.out.print(player2.getName());
-                    player2.getBalance().setBalance(playerTwoBalance + Operations.fields());
+                    player2.getBalance().setBalance(playerTwoBalance + Operations.landOnFields());
 
                     System.out.println(player1.getName() + "'s balance is: " + player1.getBalance() + "\nAnd " + player2.getName() + "'s balance is: " + player2.getBalance() + "\n");
                     if (playerOneBalance >= 3000 || playerTwoBalance >= 3000) {
